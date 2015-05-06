@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="4" name="ProductSearch">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1418971589726</CreatedAt>
+    <CreatedBy>Maivizhi.Arunagiri@cognizant.com</CreatedBy>
+    <Description>search for a product online eg:ipod</Description>
+    <DisplayName>ProductSearch</DisplayName>
+    <LastModifiedAt>1420441188057</LastModifiedAt>
+    <LastModifiedBy>Maivizhi.Arunagiri@cognizant.com</LastModifiedBy>
+    <Policies>
+        <Policy>Get-Item-Name</Policy>
+        <Policy>Set-Backend-Request</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://extract_value.js</Resource>
+    </Resources>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
